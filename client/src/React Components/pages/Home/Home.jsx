@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
+import Landing from '../../layout/Landing/Landing';
 import './home.scss';
 
 class Home extends Component {
     render() {
         return (
-            <div>
-                Hello There!
+            <div className='home'>
+                <Landing />
             </div>
         )
     }
