@@ -2,9 +2,60 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import './landing.scss';
 import './landing_graphic.scss';
+import myImage from '../../../assets/graphicons/me.png';
+import icon01 from '../../../assets/graphicons/01.png';
+import icon02 from '../../../assets/graphicons/02.png';
+import icon03 from '../../../assets/graphicons/03.png';
+import icon04 from '../../../assets/graphicons/04.png';
+import icon05 from '../../../assets/graphicons/05.png';
+import icon06 from '../../../assets/graphicons/06.png';
+import icon07 from '../../../assets/graphicons/07.png';
+import icon08 from '../../../assets/graphicons/08.png';
+import icon09 from '../../../assets/graphicons/09.png';
+import icon10 from '../../../assets/graphicons/10.png';
+import icon11 from '../../../assets/graphicons/11.jpg';
+import icon12 from '../../../assets/graphicons/12.png';
+import icon13 from '../../../assets/graphicons/13.png';
+import icon14 from '../../../assets/graphicons/14.png';
+import icon15 from '../../../assets/graphicons/15.jpg';
 
 class Landing extends Component {
     render() {
+        const icons = [
+            icon01,
+            icon02,
+            icon03,
+            icon04,
+            icon05,
+            icon06,
+            icon07,
+            icon08,
+            icon09,
+            icon10,
+            icon11,
+            icon12,
+            icon13,
+            icon14,
+            icon15,
+        ];
+        let angle = 360 - 90;
+        const dangle = 360 / icons.length;
+        const bubble_group = icons.map((icon, index) => {
+            angle += dangle;
+            return (
+                <div
+                    className='graphic__bubble'
+                    key={`bubble${index}`}
+                    style={{
+                        transform: `rotate(${angle}deg) translate(30vh) rotate(-${angle}deg)`,
+                    }}>
+                    <div className='graphic__bubble__content'>
+                        <img src={icon} alt='' className='graphic__bubble__img' />
+                    </div>
+                </div>
+            );
+        });
+
         return (
             <div className='landing'>
                 <div className='landing__side'>
@@ -70,7 +121,17 @@ class Landing extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className='landing__hero__graphic'></div>
+                    <div className='landing__hero__graphic'>
+                        <div className='graphic'>
+                            <div className='pulse--wrapper'>
+                                <div className='pulse'></div>
+                            </div>
+                            <div className='graphic__bubble-grp'>{bubble_group}</div>
+                            <div className='graphic__circle'>
+                                <img src={myImage} alt="" className="graphic__circle__img"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
