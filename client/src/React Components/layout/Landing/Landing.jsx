@@ -60,10 +60,16 @@ class Landing extends Component {
             <div className='landing'>
                 <div className='landing__side'>
                     <div className='landing__side__linkgrp'>
-                        <a href='#' className='landing__side__linkgrp--link'>
+                        <a
+                            href='https://github.com/brij1999/'
+                            target='_blank'
+                            className='landing__side__linkgrp--link'>
                             GitHub
                         </a>
-                        <a href='#' className='landing__side__linkgrp--link'>
+                        <a
+                            href='https://www.linkedin.com/in/brij1999/'
+                            target='_blank'
+                            className='landing__side__linkgrp--link'>
                             LinkedIn
                         </a>
                         <a href='#' className='landing__side__linkgrp--link'>
@@ -105,9 +111,9 @@ class Landing extends Component {
                                 knowledge in all the stages of the software development lifecycle.
                             </div>
                             <div>
-                                I like to design and develop websites, automate stuff with IoT,
+                                I like to design and develop web-apps, automate stuff with IoT,
                             </div>
-                            <div>and deep-dive into the realm of data-science.</div>
+                            <div>deep-dive into the realm of data-science, and much more...</div>
                             <div className='landing__hero__btngrp'>
                                 <a
                                     href='https://bit.ly/brijgopal'
@@ -128,7 +134,7 @@ class Landing extends Component {
                             </div>
                             <div className='graphic__bubble-grp'>{bubble_group}</div>
                             <div className='graphic__circle'>
-                                <img src={myImage} alt="" className="graphic__circle__img"/>
+                                <img src={myImage} alt='' className='graphic__circle__img' />
                             </div>
                         </div>
                     </div>

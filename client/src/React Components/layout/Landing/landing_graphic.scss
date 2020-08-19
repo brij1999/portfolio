@@ -1,5 +1,5 @@
-$darker-color: #18191a;
-$lighter-color: #484b4e;
+$darker-color: #131415;
+$lighter-color: #4d5053;
 $primary-color: #303234;
 
 $pulse-dimensions: 70vh;
@@ -40,7 +40,7 @@ $group-dimensions: 60vh;
                 background: white;
                 padding: 0.5rem;
                 box-shadow: 6px 6px 12px #181a1b, -6px -6px 12px #484b4d;
-                border: 0.2rem solid #303234;
+                border: 0.5rem solid #333;
                 animation: anti-rotation 90s infinite linear;
                 transition: all 0.3s ease;
 
@@ -78,7 +78,7 @@ $group-dimensions: 60vh;
             border: 1rem solid $primary-color;
             border-radius: 50%;
             transform: translate(-50%, -50%);
-            box-shadow: 2.5rem 2.5rem 5rem $darker-color, -2.5rem -2.5rem 5rem $lighter-color;
+            box-shadow: 2rem 2rem 4rem $darker-color, -2rem -2rem 4rem $lighter-color;
 
             &::before {
                 content: '';
