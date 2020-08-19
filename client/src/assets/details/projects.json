@@ -4,63 +4,54 @@
             "title": "Riyaaz",
             "technologies": ["React", "Electron.js", "Python"],
             "field": "Reinforcement Learning (AI)",
-            "display": "https://cdn.dribbble.com/users/68398/screenshots/3687284/loader_800.gif",
-            "hosted": "",
-            "github": "",
+            "display": "https://github.com/brij1999/Riyaaz/raw/master/screenshots/preview.png",
+            "hosted": "https://www.youtube.com/watch?v=sQdatvIpiKE",
+            "github": "https://github.com/brij1999/Riyaaz",
             "overview": "A content-based music recommendation system that uses non-stationary Bayesian learning to suggest local playlists."
-        },
-        {
-            "title": "Facial-Recognition Filter",
-            "technologies": ["Python"],
-            "field": "Deep Learning (ML)",
-            "display": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/98378f4c-b873-4ad1-8990-cf757b59d296/nature-wallpaper12.jpg",
-            "hosted": "",
-            "github": "",
-            "overview": "A snapchat-like system that applies visual filters on the input webcam stream, by detecting the facial features via neural networks."
         },
         {
             "title": "Connect+",
             "technologies": ["React", "Node.js", "MongoDB", "Firebase"],
             "field": "Web Development (MERN-stack)",
             "display": "https://github.com/brij1999/Connect_plus/raw/master/screenshots/landing.gif",
-            "hosted": "",
-            "github": "",
+            "hosted": "http://connect-plus.herokuapp.com/",
+            "github": "https://github.com/brij1999/Connect_plus",
             "overview": "A Social Networking Platform, being built with a special emphasis on the UI/UX aspects of development."
         },
         {
             "title": "Elendil",
             "technologies": ["React", "Node.js", "MongoDB"],
             "field": "Web Development (MERN-stack)",
-            "display": "https://hdwallpaperim.com/wp-content/uploads/2017/08/25/462694-night-landscape-winter-stars-nature-748x748.jpg",
-            "hosted": "",
-            "github": "",
+            "display": "https://github.com/brij1999/Elendil/raw/master/screenshots/landing.gif",
+            "hosted": "http://elendil.herokuapp.com/",
+            "github": "https://github.com/brij1999/Elendil",
             "overview": "An E-learning platform, inspired by other websites for online-learning, such as Udemy and Coursera."
         },
         {
             "title": "Home Automation System",
             "technologies": ["Python", "Firebase", "Android"],
             "field": "Internet of Things (IoT)",
-            "display": "https://i.pinimg.com/originals/df/34/d3/df34d37a337c44ab68745da9932706a3.gif",
-            "hosted": "",
-            "github": "",
+            "display": "https://github.com/brij1999/IOT_home_automation/raw/master/Screenshots/preview.png",
+            "hosted": "http://www.youtube.com/watch?v=4xuGe6qDQIY",
+            "github": "https://github.com/brij1999/IOT_home_automation",
             "overview": "A Raspberry-Pi controller & a mobile app to automate and remotely operate the common household appliances."
         },
         {
-            "title": "Smart Irrigation System",
-            "technologies": ["Python", "Firebase"],
-            "field": "Internet of Things (IoT)",
-            "display": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "hosted": "",
-            "github": "",
-            "overview": "A Raspberry-Pi controller to enable remote operation of an irrigation system."
+            "title": "Bonescan-Enhancer",
+            "technologies": ["C++", "OpenCV", "OpenMP"],
+            "field": "Image Processing & Parallel Computing",
+            "display": "https://github.com/brij1999/Bonescan-Enhancer/raw/master/screenshots/Output.png",
+            "hosted": "https://github.com/brij1999/Bonescan-Enhancer",
+            "github": "https://github.com/brij1999/Bonescan-Enhancer",
+            "overview": "An application for enhancing the raw bone-scans via the usage of Parallel Computing and Image Processing principles, in order to facilitate convenient and efficient diagnosis."
         },
         {
             "title": "Windows File Manager",
             "technologies": ["C++"],
             "field": "Operating System (OS)",
-            "display": "https://cdn.dribbble.com/users/5484/screenshots/2145786/for_dribbble.gif",
-            "hosted": "",
-            "github": "",
+            "display": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVkos1TCfPvUICqFfgFELRFp83HxPOPSLZ4Q&usqp=CAU",
+            "hosted": "https://github.com/brij1999/WinFileManager",
+            "github": "https://github.com/brij1999/WinFileManager",
             "overview": "An easy-to-use CLI-based C++ application that provides strong control over the common operations realted to the files & folders of the Windows operating system."
         }
     ]

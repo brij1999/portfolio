@@ -5,6 +5,7 @@ $primary-color: #303234;
 .experience {
     width: 100%;
     height: 100%;
+    position: relative;
 
     &--wrapper {
         width: 100%;
@@ -29,8 +30,8 @@ $primary-color: #303234;
         perspective: 150rem;
         -moz-perspective: 150rem;
         position: relative;
-        height: 50rem;
-        width: 26vw;
+        height: 70vh;
+        width: 23vw;
         margin-bottom: 5rem;
         color: #555;
 
@@ -51,7 +52,7 @@ $primary-color: #303234;
             top: 0;
             left: 0;
             backface-visibility: hidden;
-            border-radius: 0.3rem;
+            border-radius: 0.5rem;
             overflow: hidden;
             transition: all 0.8s ease;
             box-shadow: 1rem 1rem 2rem $darker-color, -1rem -1rem 2rem $lighter-color;
@@ -77,22 +78,20 @@ $primary-color: #303234;
         &__picture {
             background-size: cover;
             background-position: center;
-            height: 23rem;
+            height: 45%;
             background-blend-mode: soft-light;
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-            border-top-left-radius: 0.3rem;
-            border-top-right-radius: 0.3rem;
         }
 
         &__heading {
-            font-size: 2.5rem;
+            font-size: 2.25rem;
             font-weight: 300;
             text-transform: uppercase;
             text-align: right;
             color: #fff;
             position: absolute;
-            top: 15rem;
+            top: 23vh;
             right: 2rem;
             width: 75%;
         }
@@ -104,7 +103,7 @@ $primary-color: #303234;
         }
 
         &__details {
-            padding: 3rem;
+            padding: 2rem;
 
             ul {
                 list-style: none;
@@ -113,7 +112,7 @@ $primary-color: #303234;
 
                 li {
                     text-align: center;
-                    font-size: 1.5rem;
+                    font-size: 1.4rem;
                     padding: 1rem;
 
                     &:not(:last-child) {
@@ -137,7 +136,7 @@ $primary-color: #303234;
 
         &__description {
             color: white;
-            font-size: 1.6rem;
+            font-size: 1.3rem;
             text-align: justify;
             padding-left: 0.5rem;
 
@@ -150,7 +149,7 @@ $primary-color: #303234;
             display: inline-block;
             padding: 0.75rem 2rem;
             color: #333;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             background: white;
             border-radius: 10rem;
             margin-bottom: 1.5rem;

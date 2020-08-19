@@ -7,11 +7,6 @@ class Experience extends Component {
     constructor(props) {
         super(props);
         this.state = {};
-        // this.colors = [
-        //     ['#ffb900', '#ff7730'],
-        //     ['#2998ff', '#5643fa'],
-        //     ['#7ed56f', '#28b485'],
-        // ];
     }
 
     componentDidMount() {
@@ -20,6 +15,8 @@ class Experience extends Component {
 
     setCardProperties() {
         const card_pictures = document.querySelectorAll('.experience__card__picture');
+        const card_backs = document.querySelectorAll('.experience__card__side--back');
+        const card_headings = document.querySelectorAll('.experience__card__heading-span');
         for (let i = 0; i < card_pictures.length; i++) {
             card_pictures[i].style.backgroundImage = `linear-gradient(
                         to right bottom,
@@ -27,19 +24,11 @@ class Experience extends Component {
                         ${experience[i].colors[1]}
                     ),
                     url(${experience[i].display})`;
-        }
-
-        const card_backs = document.querySelectorAll('.experience__card__side--back');
-        for (let i = 0; i < card_backs.length; i++) {
             card_backs[i].style.backgroundImage = `linear-gradient(
                         to right bottom,
                         ${experience[i].colors[0]},
                         ${experience[i].colors[1]}
                     )`;
-        }
-
-        const card_headings = document.querySelectorAll('.experience__card__heading-span');
-        for (let i = 0; i < card_headings.length; i++) {
             card_headings[i].style.background = `linear-gradient(
                         to right bottom,
                         ${experience[i].colors[0]}d9,

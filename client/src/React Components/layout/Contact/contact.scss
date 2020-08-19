@@ -1,0 +1,204 @@
+.contact {
+    width: 100%;
+    height: 70%;
+    background: black;
+    padding-top: 3rem;
+    font-size: 1.6rem;
+    position: relative;
+}
+
+
+@keyframes wave {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 1360px;
+    }
+}
+
+
+.button:link,
+.button:visited {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 2;
+    font-size: 1.25vw;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    color: #777;
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.button-primary {
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 100px;
+}
+
+.button-header {
+    position: absolute;
+    top: 62%;
+    left: 7%;
+}
+
+.button-secondary {
+    position: relative;
+    font-size: 16px;
+    padding: 10px 20px;
+    z-index: 2;
+    border: transparent solid 1px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.button-secondary:hover {
+    color: #ff8a04;
+    border: #fda604 solid 2.5px;
+}
+
+.button--white {
+    background-color: white;
+    color: #777;
+}
+
+.button--animated {
+    animation: shiftbottom 1s 1s;
+    animation-fill-mode: backwards;
+}
+
+.hr--style1 {
+    border: 0;
+    height: 1.5px;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(to right, transparent, #f0f0f0 10%, #00b9ff, #59d941, #f0f0f0 90%, transparent);
+}
+
+.hr--vertical {
+    width: 300px;
+    transform: translate(-140px, 165px) rotate(90deg);
+}
+
+
+.heading-footer {
+    text-shadow: -3px 3px 7px rgba(0, 0, 0, 0.9);
+    transform: scale(1.5);
+    margin-bottom: 3rem;
+    transition: all 0.2s;
+}
+
+.Link:link,
+.Link:visited {
+    color: inherit;
+}
+
+.Link:hover {
+    color: inherit;
+    border-bottom-color: inherit;
+    border-bottom: 2px dotted !important;
+}
+
+
+.footer .Link-icon:link,
+.footer .Link-icon:visited {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer .Link-icon:active {
+    text-shadow: -2px 2px 5px #272634;
+}
+
+.footer__icons {
+    text-shadow: -10px 10px 10px -2px transparent;
+    transition: all 0.3s ease;
+}
+.footer__icons:hover .col-md-2 a {
+    opacity: 0.5;
+}
+.footer__icons:hover .col-md-2 a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    text-shadow: -4px 4px 7px #272634;
+}
+
+.footer__wave {
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    bottom: 0;
+    left: 0;
+    background: url(../../../assets/wave.webp);
+    animation: wave 22s linear infinite;
+}
+.footer__wave::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    background: url(../../../assets/wave.webp);
+    animation: wave 20s linear infinite reverse;
+}
+.footer__wave::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background: url(../../../assets/wave.webp);
+    animation: wave 33s linear -4s infinite;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form__input {
+    font-size: 1.6rem;
+    background-color: rbga(white, 0.5);
+    border: none;
+    height: 3.5rem;
+    border-radius: 2px;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s;
+}
+.form__input:focus {
+    outline: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #26db02;
+}
+.form__input:focus:invalid {
+    border-bottom: 4px solid orangered;
+}
+
+.form__label {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 1px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-15px);
+}
+
