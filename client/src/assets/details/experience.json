@@ -8,7 +8,7 @@
             "from": "Jan 2021",
             "to": "Present",
             "display": "https://raw.githubusercontent.com/brij1999/portfolio/master/client/src/assets/companies/cisco.png",
-            "blendMode": "saturation",
+            "blendMode": "soft-light",
             "colors": [
                 "#56CCF2",
                 "#2F80ED"

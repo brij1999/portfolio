@@ -86,7 +86,6 @@ class Experience extends Component {
         ));
         return (
             <div className='experience--wrapper'>
-                <div className='experience--planet'></div>
                 <div className='experience'>
                     <div className='experience__heading'>Experience</div>
                     <div className='experience__card--wrapper'>{experienceCards}</div>
