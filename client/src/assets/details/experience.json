@@ -2,12 +2,35 @@
     "experience": [
         {
             "type": "Internship",
+            "title": "COLLEGE INTERN - TECH UNDERGRAD",
+            "workplace": "Cisco Systems India Pvt. Ltd.",
+            "address": "SEZ Unit, Cessna Business Park, Hobli, Varthur Rd, Marathahalli, Bengaluru, Karnataka, India - 560103",
+            "from": "Jan 2021",
+            "to": "Present",
+            "display": "https://raw.githubusercontent.com/brij1999/portfolio/master/client/src/assets/companies/cisco.png",
+            "blendMode": "saturation",
+            "colors": [
+                "#56CCF2",
+                "#2F80ED"
+            ],
+            "resources": [
+                {
+                    "title": "Visit the official Website",
+                    "link": "https://www.cisco.com/c/en_in/index.html?country-redirect=true"
+                }
+            ],
+            "description": [
+                "Placed as a Software Engineer (Internal Applications) at cisco."
+            ]
+        },
+        {
+            "type": "Internship",
             "title": "IoT & Full-Stack Developer",
-            "workplace": "Virtusa Consulting Services Private Limited",
-            "address": "RMZ Eco World Rd, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka, India",
+            "workplace": "Virtusa Consulting Services Pvt. Ltd.",
+            "address": "RMZ Eco World Rd, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka, India - 560103",
             "from": "Jun 2020",
             "to": "Oct 2020",
-            "display": "https://github.com/brij1999/resource-links/raw/master/virtusa.jpg",
+            "display": "https://raw.githubusercontent.com/brij1999/portfolio/master/client/src/assets/companies/virtusa.jpg",
             "blendMode": "soft-light",
             "colors": [
                 "#2998ff",
@@ -15,28 +38,9 @@
             ],
             "resources": [
                 {
-                    "title": "Visit the official Website",
-                    "link": "https://www.virtusa.com/"
-                }
-            ],
-            "description": [
-                "Currently working on a number of projects pertaining to the fields of Web Developement and Internet-of-Things (IoT)."
-            ]
-        },
-        {
-            "type": "Internship",
-            "title": "IoT & Full-Stack Developer",
-            "workplace": "Virtusa Consulting Services Private Limited",
-            "address": "RMZ Eco World Rd, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka, India",
-            "from": "Jun 2020",
-            "to": "Oct 2020",
-            "display": "https://github.com/brij1999/resource-links/raw/master/virtusa.jpg",
-            "blendMode": "soft-light",
-            "colors": [
-                "#2998ff",
-                "#5643fa"
-            ],
-            "resources": [
+                    "title": "Certificate of Completion",
+                    "link": "https://www.linkedin.com/in/brij1999/detail/treasury/position:1641437082/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACtabvYBiFPQ0288lZ946MQJzbxvV8944e4%2C1603167400690)&parentEntityUrn=urn%3Ali%3Afsd_profilePosition%3A(ACoAACtabvYBiFPQ0288lZ946MQJzbxvV8944e4%2C1641437082)&section=position%3A1641437082&treasuryCount=1&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bk3gyxa03RMGtK4WzOM48Qg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-treasury_thumbnail_cell"
+                },
                 {
                     "title": "Visit the official Website",
                     "link": "https://www.virtusa.com/"
@@ -50,10 +54,10 @@
             "type": "Internship",
             "title": "Full - Stack Developer",
             "workplace": "CamCann Smart System Technology Pvt. Ltd.",
-            "address": "Technology Business Incubator (VIT-TBI), VIT Vellore, Tamil Nadu, India",
+            "address": "Technology Business Incubator (VIT-TBI), VIT Vellore, Tamil Nadu, India - 632014",
             "from": "July 2019",
             "to": "Feb 2020",
-            "display": "https://github.com/brij1999/resource-links/raw/master/camcann.png",
+            "display": "https://raw.githubusercontent.com/brij1999/portfolio/master/client/src/assets/companies/camcann.png",
             "blendMode": "darken",
             "colors": [
                 "#ffb900",
@@ -84,10 +88,10 @@
             "type": "Internship",
             "title": "Software Intern",
             "workplace": "Beam Diagnostics & Coolant Systems Division",
-            "address": "RRCAT, Dept. of Atomic Energy (DAE), Government of India, Indore, Madhya Pradesh, India",
+            "address": "RRCAT, Dept. of Atomic Energy (DAE), Government of India, Indore, Madhya Pradesh, India - 452013",
             "from": "May 2019",
             "to": "June 2019",
-            "display": "https://github.com/brij1999/resource-links/raw/master/rrcat.png",
+            "display": "https://raw.githubusercontent.com/brij1999/portfolio/master/client/src/assets/companies/rrcat.png",
             "blendMode": "saturation",
             "colors": [
                 "#7ed56f",
