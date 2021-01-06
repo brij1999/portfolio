@@ -6,8 +6,32 @@
             "workplace": "Virtusa Consulting Services Private Limited",
             "address": "RMZ Eco World Rd, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka, India",
             "from": "Jun 2020",
-            "to": "Present",
+            "to": "Oct 2020",
             "display": "https://github.com/brij1999/resource-links/raw/master/virtusa.jpg",
+            "blendMode": "soft-light",
+            "colors": [
+                "#2998ff",
+                "#5643fa"
+            ],
+            "resources": [
+                {
+                    "title": "Visit the official Website",
+                    "link": "https://www.virtusa.com/"
+                }
+            ],
+            "description": [
+                "Currently working on a number of projects pertaining to the fields of Web Developement and Internet-of-Things (IoT)."
+            ]
+        },
+        {
+            "type": "Internship",
+            "title": "IoT & Full-Stack Developer",
+            "workplace": "Virtusa Consulting Services Private Limited",
+            "address": "RMZ Eco World Rd, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka, India",
+            "from": "Jun 2020",
+            "to": "Oct 2020",
+            "display": "https://github.com/brij1999/resource-links/raw/master/virtusa.jpg",
+            "blendMode": "soft-light",
             "colors": [
                 "#2998ff",
                 "#5643fa"
@@ -30,6 +54,7 @@
             "from": "July 2019",
             "to": "Feb 2020",
             "display": "https://github.com/brij1999/resource-links/raw/master/camcann.png",
+            "blendMode": "darken",
             "colors": [
                 "#ffb900",
                 "#ff7730"
@@ -59,10 +84,11 @@
             "type": "Internship",
             "title": "Software Intern",
             "workplace": "Beam Diagnostics & Coolant Systems Division",
-            "address": "RRCAT, Dept. of Atomic Energy (DAE), Indore, Madhya Pradesh, India",
+            "address": "RRCAT, Dept. of Atomic Energy (DAE), Government of India, Indore, Madhya Pradesh, India",
             "from": "May 2019",
             "to": "June 2019",
             "display": "https://github.com/brij1999/resource-links/raw/master/rrcat.png",
+            "blendMode": "saturation",
             "colors": [
                 "#7ed56f",
                 "#28b485"

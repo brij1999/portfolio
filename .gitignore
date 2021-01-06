@@ -1,4 +1,5 @@
 node_modules/
+possible assets/
 db/
 build/
 package-lock.json

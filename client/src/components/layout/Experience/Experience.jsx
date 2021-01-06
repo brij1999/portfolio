@@ -18,6 +18,7 @@ class Experience extends Component {
         const card_backs = document.querySelectorAll('.experience__card__side--back');
         const card_headings = document.querySelectorAll('.experience__card__heading-span');
         for (let i = 0; i < card_pictures.length; i++) {
+            card_pictures[i].style.backgroundBlendMode = experience[i].blendMode;
             card_pictures[i].style.backgroundImage = `linear-gradient(
                         to right bottom,
                         ${experience[i].colors[0]},
